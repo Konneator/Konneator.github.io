@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700|Exo:300,400,700' rel='stylesheet' type='text/css'>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+  <div class="TableInfo" style="position: relative; margin: auto;display: block; width:1920px; height:1080px;">
+    <img src="Images/Table3.png" class="Table">
+      <div id="proflist" class ="list" style="left: 257px; top: 87px; width:454px; height:752px">
+        <table id="unemployed" onclick="ChooseProfession('unemployed',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"></td>
+            <td height="67px">&nbsp;&nbsp;&nbsp;&nbsp;Unemployed</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="fireofficer" onclick="ChooseProfession('fireofficer',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Fire_Officer.png"></td>
+            <td>&nbsp;Fire Officer</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="policeofficer" onclick="ChooseProfession('policeofficer',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Police_Officer.png"></td>
+            <td>&nbsp;Police Officer</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="parkranger" onclick="ChooseProfession('parkranger',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Park_Ranger.png"></td>
+            <td>&nbsp;Park Ranger</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="constructionworker" onclick="ChooseProfession('constructionworker',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Construction_Worker.png"></td>
+            <td>&nbsp;Construction Worker</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="securityguard" onclick="ChooseProfession('securityguard',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Security_Guard.png"></td>
+            <td>&nbsp;Security Guard</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="carpenter" onclick="ChooseProfession('carpenter',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Carpenter.png"></td>
+            <td>&nbsp;Carpenter</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="burglar" onclick="ChooseProfession('burglar',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Burglar.png"></td>
+            <td>&nbsp;Burglar</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="chef" onclick="ChooseProfession('chef',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Chef.png"></td>
+            <td>&nbsp;Chef</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="repairman" onclick="ChooseProfession('repairman',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Repairman.png"></td>
+            <td>&nbsp;Repairman</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="farmer" onclick="ChooseProfession('farmer',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Farmer.png"></td>
+            <td>&nbsp;Farmer</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="fisherman" onclick="ChooseProfession('fisherman',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Fisherman.png"></td>
+            <td>&nbsp;Fisherman</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="doctor" onclick="ChooseProfession('doctor',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Doctor.png"></td>
+            <td>&nbsp;Doctor</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="veteran" onclick="ChooseProfession('veteran',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Veteran.png"></td>
+            <td>&nbsp;Veteran</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="nurse" onclick="ChooseProfession('nurse',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Nurse.png"></td>
+            <td>&nbsp;Nurse</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="lumberjack" onclick="ChooseProfession('lumberjack',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Lumberjack.png"></td>
+            <td>&nbsp;Lumberjack</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="fitnessInstructor" onclick="ChooseProfession('fitnessInstructor',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/FitnessInstructor.png"></td>
+            <td>&nbsp;Fitness Instructor</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="burgerflipper" onclick="ChooseProfession('burgerflipper',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Burgerflipper.png"></td>
+            <td>&nbsp;Burger Flipper</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="electrician" onclick="ChooseProfession('electrician',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Electrician.png"></td>
+            <td>&nbsp;Electrician</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="engineer" onclick="ChooseProfession('engineer',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Engineer.png"></td>
+            <td>&nbsp;Engineer</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="metalworker" onclick="ChooseProfession('metalworker',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Metalworker.png"></td>
+            <td>&nbsp;Metalworker</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+        <table id="Mechanic" onclick="ChooseProfession('Mechanic',true)" style="padding: 5px 5px 5px 5px; color: #d3d3d3;" width="100%">
+          <tr>
+            <td width="53px"><img src="Images/Professions/Mechanic.png"></td>
+            <td>&nbsp;Mechanic</td>
+            <td align="right"></td>
+          </tr>
+        </table>
+      </div>
+      <div id="availgtraitlist" class ="list" style="color: green;  left: 733px; top: 103px; width:454px; height:350px">
+                <div id="SpeedDemon" onclick="AddGoodTrait('SpeedDemon',true,true)" style="display:block;" title="SpeedDemon">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitspeeddemon.png"></td>
+              <td>&nbsp;Speed Demon</td>
+              <td align="right">-1</td>
+            </tr>
+          </table>
+        </div>
+        <div id="NightVision" onclick="AddGoodTrait('NightVision',true,true)" style="display:block;" title="Better vision at night">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitcatseyes.png"></td>
+              <td>&nbsp;Cat's Eyes</td>
+              <td align="right">-2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Dextrous" onclick="AddGoodTrait('Dextrous',true,true)" style="display:block;" title="Transfers inventory items quickly">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitdextrous.png"></td>
+              <td>&nbsp;Dextrous</td>
+              <td align="right">-2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="FastReader" onclick="AddGoodTrait('FastReader',true,true)" style="display:block;" title="Takes less time to read books">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitfastreader.png"></td>
+              <td>&nbsp;Fast Reader</td>
+              <td align="right">-2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Outdoorsman" onclick="AddGoodTrait('Outdoorsman',true,true)" style="display:block;" title="Not affected by harsh weather conditions.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitoutdoorsman.png"></td>
+              <td>&nbsp;Outdoorsman</td>
+              <td align="right">-2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="NeedsLessSleep" onclick="AddGoodTrait('NeedsLessSleep',true,true)" style="display:block;" title="Needs less sleep">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitwakeful.png"></td>
+              <td>&nbsp;Wakeful</td>
+              <td align="right">-2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="IronGut" onclick="AddGoodTrait('IronGut',true,true)" style="display:block;" title="Less chance to have food illness">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitirongut.png"></td>
+              <td>&nbsp;Iron Gut</td>
+              <td align="right">-3</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Fishing" onclick="AddGoodTrait('Fishing',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitangler.png"></td>
+              <td>&nbsp;Angler</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="BaseballPlayer" onclick="AddGoodTrait('BaseballPlayer',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitbaseballplayer.png"></td>
+              <td>&nbsp;Baseball Player</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Brave" onclick="AddGoodTrait('Brave',true,true)" style="display:block;" title="Less prone to becoming panicked.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitbrave.png"></td>
+              <td>&nbsp;Brave</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="FirstAid" onclick="AddGoodTrait('FirstAid',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitfirstaider.png"></td>
+              <td>&nbsp;First Aider</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Gardener" onclick="AddGoodTrait('Gardener',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitgardener.png"></td>
+              <td>&nbsp;Gardener</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Graceful" onclick="AddGoodTrait('Graceful',true,true)" style="display:block;" title="Makes less noise when moving.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitgraceful.png"></td>
+              <td>&nbsp;Graceful</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Inconspicuous" onclick="AddGoodTrait('Inconspicuous',true,true)" style="display:block;" title="Less likely to be spotted by zombies">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitinconspicuous.png"></td>
+              <td>&nbsp;Inconspicuous</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="LightEater" onclick="AddGoodTrait('LightEater',true,true)" style="display:block;" title="Needs to eat less regularly.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitlighteater.png"></td>
+              <td>&nbsp;Light Eater</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Lucky" onclick="AddGoodTrait('Lucky',true,true)" style="display:block;" title="Sometimes, things just go your way.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitlucky.png"></td>
+              <td>&nbsp;Lucky</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Nutritionist" onclick="AddGoodTrait('Nutritionist',true,true)" style="display:block;" title="Can see the nutritional values of any food.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitnutritionist.png"></td>
+              <td>&nbsp;Nutritionist</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Resilient" onclick="AddGoodTrait('Resilient',true,true)" style="display:block;" title="Less prone to disease.Slower rate of zombification.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitresilient.png"></td>
+              <td>&nbsp;Resilient</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Jogger" onclick="AddGoodTrait('Jogger',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitrunner.png"></td>
+              <td>&nbsp;Runner</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Sewer" onclick="AddGoodTrait('Sewer',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitsewer.png"></td>
+              <td>&nbsp;Sewer</td>
+              <td align="right">-4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="AmateurMechanics" onclick="AddGoodTrait('AmateurMechanics',true,true)" style="display:block;" title="AmateurMechanics">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitmechanic.png"></td>
+              <td>&nbsp;Amateur Mechanic</td>
+              <td align="right">-5</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Gymnast" onclick="AddGoodTrait('Gymnast',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitgymnast.png"></td>
+              <td>&nbsp;Gymnast</td>
+              <td align="right">-5</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Brawler" onclick="AddGoodTrait('Brawler',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitbrawler.png"></td>
+              <td>&nbsp;Brawler</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Cook" onclick="AddGoodTrait('Cook',true,true)" style="display:block;" title="Know cooking recipes">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitcook.png"></td>
+              <td>&nbsp;Cook</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="EagleEyed" onclick="AddGoodTrait('EagleEyed',true,true)" style="display:block;" title="Faster visibility fade.Higher visibility arc.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traiteagleeyed.png"></td>
+              <td>&nbsp;Eagle Eyed</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="FastHealer" onclick="AddGoodTrait('FastHealer',true,true)" style="display:block;" title="Recovers quickly from injuries and illness">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitfasthealer.png"></td>
+              <td>&nbsp;Fast Healer</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="FastLearner" onclick="AddGoodTrait('FastLearner',true,true)" style="display:block;" title="Increased XP gains">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitfastlearner.png"></td>
+              <td>&nbsp;Fast Learner</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Fit" onclick="AddGoodTrait('Fit',true,true)" style="display:block;" title="Fit.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitfit.png"></td>
+              <td>&nbsp;Fit</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Formerscout" onclick="AddGoodTrait('Formerscout',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitformerscout.png"></td>
+              <td>&nbsp;Former Scout</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Herbalist" onclick="AddGoodTrait('Herbalist',true,true)" style="display:block;" title="Can find medicinal herbs and craft medicines and poultices from them.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitherbalist.png"></td>
+              <td>&nbsp;Herbalist</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Hiker" onclick="AddGoodTrait('Hiker',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithiker.png"></td>
+              <td>&nbsp;Hiker</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="KeenHearing" onclick="AddGoodTrait('KeenHearing',true,true)" style="display:block;" title="Larger perception radius.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitkeenhearing.png"></td>
+              <td>&nbsp;Keen Hearing</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="LowThirst" onclick="AddGoodTrait('LowThirst',true,true)" style="display:block;" title="Needs less water to survive">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitlowthirst.png"></td>
+              <td>&nbsp;Low Thirst</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Organized" onclick="AddGoodTrait('Organized',true,true)" style="display:block;" title="Increased container inventory capacity">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitorganized.png"></td>
+              <td>&nbsp;Organized</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Stout" onclick="AddGoodTrait('Stout',true,true)" style="display:block;" title="Extra knockback from melee weapons.Increased carrying weight.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitstout.png"></td>
+              <td>&nbsp;Stout</td>
+              <td align="right">-6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="AdrenalineJunkie" onclick="AddGoodTrait('AdrenalineJunkie',true,true)" style="display:block;" title="Moves faster when highly panicked">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitadrenalinejunkie.png"></td>
+              <td>&nbsp;Adrenaline Junkie</td>
+              <td align="right">-8</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Handy" onclick="AddGoodTrait('Handy',true,true)" style="display:block;" title="Faster and stronger constructions.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithandy.png"></td>
+              <td>&nbsp;Handy</td>
+              <td align="right">-8</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Hunter" onclick="AddGoodTrait('Hunter',true,true)" style="display:block;" title="">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithunter.png"></td>
+              <td>&nbsp;Hunter</td>
+              <td align="right">-8</td>
+            </tr>
+          </table>
+        </div>
+        <div id="ThickSkinned" onclick="AddGoodTrait('ThickSkinned',true,true)" style="display:block;" title="Less chance of scratches or bites breaking the skin.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitthickskinned.png"></td>
+              <td>&nbsp;Thick Skinned</td>
+              <td align="right">-8</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Athletic" onclick="AddGoodTrait('Athletic',true,true)" style="display:block;" title="Faster running speed.Can run for longer without tiring.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitathletic.png"></td>
+              <td>&nbsp;Athletic</td>
+              <td align="right">-10</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Strong" onclick="AddGoodTrait('Strong',true,true)" style="display:block;" title="Extra knockback from melee weapons.Increased carrying weight.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitstrong.png"></td>
+              <td>&nbsp;Strong</td>
+              <td align="right">-10</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Axeman" style="display:none;" title="Better at chopping trees.Faster axe swing.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitaxeman.png"></td>
+              <td>&nbsp;Axe Man</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Nutritionist2" style="display:none;" title="Can see the nutritional values of any food.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitnutritionist2.png"></td>
+              <td>&nbsp;Nutritionist</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Marksman" style="display:none;" title="Improved gun accuracy.Quicker reload.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitmarksman.png"></td>
+              <td>&nbsp;Marksman</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+        <div id="NightOwl" style="display:none;" title="Requires little sleep.Stays extra alert even when sleeping.">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitnightowl.png"></td>
+              <td>&nbsp;Night Owl</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Desensitized" style="display:none;" title="Does not reach states of panic">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitdesensitized.png"></td>
+              <td>&nbsp;Desensitized</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Cook2" style="display:none;" title="Know cooking">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitcook2.png"></td>
+              <td>&nbsp;Cook</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+        <div id="AmateurMechanic2" style="display:none;" title="Amateur Mechanic">
+          <table style="color:green;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitmechanic.png"></td>
+              <td>&nbsp;Amateur Mechanic</td>
+              <td align="right">0</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="chosentraitlist" class ="list" style=" left: 1209px; top: 103px; width:454px; height:350px">
+      </div>
+      <div id="availbtraitlist" class ="list" style="color: red;  left: 733px; top: 488px; width:454px; height:351px">
+        <div id="SundayDriver" onclick="AddBadTrait('SundayDriver',true,true)" style="display:block;" title="SundayDriver">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitsundaydriver.png"></td>
+              <td>&nbsp;Sunday Driver</td>
+              <td align="right">+1</td>
+            </tr>
+          </table>
+        </div>
+        <div id="AllThumbs" onclick="AddBadTrait('AllThumbs',true,true)" style="display:block;" title="Transfers inventory items slowly">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitallthumbs.png"></td>
+              <td>&nbsp;All Thumbs</td>
+              <td align="right">+2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Clumsy" onclick="AddBadTrait('Clumsy',true,true)" style="display:block;" title="Makes more noise when moving.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitclumsy.png"></td>
+              <td>&nbsp;Clumsy</td>
+              <td align="right">+2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Cowardly" onclick="AddBadTrait('Cowardly',true,true)" style="display:block;" title="Especially prone to becoming panicked.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitcowardly.png"></td>
+              <td>&nbsp;Cowardly</td>
+              <td align="right">+2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="ShortSighted" onclick="AddBadTrait('ShortSighted',true,true)" style="display:block;" title="Smaller view distance.Slower visibility fade.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitshortsighted.png"></td>
+              <td>&nbsp;Short Sighted</td>
+              <td align="right">+2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="SlowReader" onclick="AddBadTrait('SlowReader',true,true)" style="display:block;" title="Takes longer to read books">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitslowreader.png"></td>
+              <td>&nbsp;Slow Reader</td>
+              <td align="right">+2</td>
+            </tr>
+          </table>
+        </div>
+        <div id="WeakStomach" onclick="AddBadTrait('WeakStomach',true,true)" style="display:block;" title="Higher chance to have food illness">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitweakstomach.png"></td>
+              <td>&nbsp;Weak Stomach</td>
+              <td align="right">+3</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Agoraphobic" onclick="AddBadTrait('Agoraphobic',true,true)" style="display:block;" title="Gets panicked when outdoors.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitagoraphobic.png"></td>
+              <td>&nbsp;Agoraphobic</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Claustophobic" onclick="AddBadTrait('Claustophobic',true,true)" style="display:block;" title="Gets panicked when indoors.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitclaustrophobic.png"></td>
+              <td>&nbsp;Claustrophobic</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Conspicuous" onclick="AddBadTrait('Conspicuous',true,true)" style="display:block;" title="More likely to be spotted by zombies">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitconspicuous.png"></td>
+              <td>&nbsp;Conspicuous</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Disorganized" onclick="AddBadTrait('Disorganized',true,true)" style="display:block;" title="Decreased container inventory capacity">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitdisorganized.png"></td>
+              <td>&nbsp;Disorganized</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="HardOfHearing" onclick="AddBadTrait('HardOfHearing',true,true)" style="display:block;" title="Smaller perception radius.Smaller hearing range.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithardofhearing.png"></td>
+              <td>&nbsp;Hard of Hearing</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="HeartyAppitite" onclick="AddBadTrait('HeartyAppitite',true,true)" style="display:block;" title="Needs to eat more regularly.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitheartyappetite.png"></td>
+              <td>&nbsp;Hearty Appetite</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Pacifist" onclick="AddBadTrait('Pacifist',true,true)" style="display:block;" title="Less effective with weapons">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitpacifist.png"></td>
+              <td>&nbsp;Pacifist</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="ProneToIllness" onclick="AddBadTrait('ProneToIllness',true,true)" style="display:block;" title="More prone to disease.Faster rate of zombification.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithypochondriac.png"></td>
+              <td>&nbsp;Prone to Illness</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="NeedsMoreSleep" onclick="AddBadTrait('NeedsMoreSleep',true,true)" style="display:block;" title="Needs more sleep">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitsleepyhead.png"></td>
+              <td>&nbsp;Sleepyhead</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Smoker" onclick="AddBadTrait('Smoker',true,true)" style="display:block;" title="Stress and unhappiness decrease after smoking tobacco. Unhappiness rises when tobacco is not smoked.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitsmoker.png"></td>
+              <td>&nbsp;Smoker</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Unlucky" onclick="AddBadTrait('Unlucky',true,true)" style="display:block;" title="What could go wrong for you, often does.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitunlucky.png"></td>
+              <td>&nbsp;Unlucky</td>
+              <td align="right">+4</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Asthmatic" onclick="AddBadTrait('Asthmatic',true,true)" style="display:block;" title="Faster endurance loss">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitasthmatic.png"></td>
+              <td>&nbsp;Asthmatic</td>
+              <td align="right">+5</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Hemophobic" onclick="AddBadTrait('Hemophobic',true,true)" style="display:block;" title="Panic when performing first aid on self, cannot perform first aid on others">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithemophobic.png"></td>
+              <td>&nbsp;Hemophobic</td>
+              <td align="right">+5</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Feeble" onclick="AddBadTrait('Feeble',true,true)" style="display:block;" title="Less knockback from melee weapons.Decreased carrying weight.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitfeeble.png"></td>
+              <td>&nbsp;Feeble</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="HighThirst" onclick="AddBadTrait('HighThirst',true,true)" style="display:block;" title="Needs more water to survive">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traithighthirst.png"></td>
+              <td>&nbsp;High Thirst</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="OutofShape" onclick="AddBadTrait('OutofShape',true,true)" style="display:block;" title="Low endurance, low endurance regeneration.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitoutofshape.png"></td>
+              <td>&nbsp;Out of Shape</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Overweight" onclick="AddBadTrait('Overweight',true,true)" style="display:block;" title="Reduced running speed, low endurance and prone to injury.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitoverweight.png"></td>
+              <td>&nbsp;Overweight</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Insomniac" onclick="AddBadTrait('Insomniac',true,true)" style="display:block;" title="Slow loss of tiredness while sleeping">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitrestlesssleeper.png"></td>
+              <td>&nbsp;Restless Sleeper</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="SlowHealer" onclick="AddBadTrait('SlowHealer',true,true)" style="display:block;" title="Recovers slowly from injuries and illness">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitslowhealer.png"></td>
+              <td>&nbsp;Slow Healer</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="SlowLearner" onclick="AddBadTrait('SlowLearner',true,true)" style="display:block;" title="Decreased XP gains">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitslowlearner.png"></td>
+              <td>&nbsp;Slow Learner</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Underweight" onclick="AddBadTrait('Underweight',true,true)" style="display:block;" title="Low strength, low endurance and prone to injury.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitunderweight.png"></td>
+              <td>&nbsp;Underweight</td>
+              <td align="right">+6</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Illiterate" onclick="AddBadTrait('Illiterate',true,true)" style="display:block;" title="Cannot read books">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitilliterate.png"></td>
+              <td>&nbsp;Illiterate</td>
+              <td align="right">+8</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Thinskinned" onclick="AddBadTrait('Thinskinned',true,true)" style="display:block;" title="Carries heightened risk of infection">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitthinskinned.png"></td>
+              <td>&nbsp;Thin-skinned</td>
+              <td align="right">+8</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Obese" onclick="AddBadTrait('Obese',true,true)" style="display:block;" title="Reduced running speed, very low endurance and prone to injury.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitobese.png"></td>
+              <td>&nbsp;Obese</td>
+              <td align="right">+10</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Unfit" onclick="AddBadTrait('Unfit',true,true)" style="display:block;" title="Very low endurance, very low endurance regeneration.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitunfit.png"></td>
+              <td>&nbsp;Unfit</td>
+              <td align="right">+10</td>
+            </tr>
+          </table>
+        </div>
+        <div id="VeryUnderweight" onclick="AddBadTrait('VeryUnderweight',true,true)" style="display:block;" title="Very low strength, very low endurance and prone to injury.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitveryunderweight.png"></td>
+              <td>&nbsp;Very Underweight</td>
+              <td align="right">+10</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Weak" onclick="AddBadTrait('Weak',true,true)" style="display:block;" title="Less knockback from melee weapons.Decreased carrying weight.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitweak.png"></td>
+              <td>&nbsp;Weak</td>
+              <td align="right">+10</td>
+            </tr>
+          </table>
+        </div>
+        <div id="Deaf" onclick="AddBadTrait('Deaf',true,true)" style="display:block;" title="Can't hear sound.">
+          <table style="color:DarkRed;" width="100%">
+            <tr>
+              <td width="53px"><img src="Images/Traits/traitdeaf.png"></td>
+              <td>&nbsp;Deaf</td>
+              <td align="right">+12</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div id="majorskills" class ="list" style=" left: 1209px; top: 488px; width:454px; height:351px">
+        <div id="Aiming" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Aiming</td>
+              <td align="right" style="float: right;"><input disabled id="AimingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Axe" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Axe</td>
+              <td align="right" style="float: right;"><input disabled id="AxeCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="ShortBlade" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Short Blade</td>
+              <td align="right" style="float: right;"><input disabled id="ShortBladeCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="ShortBlunt" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Short Blunt</td>
+              <td align="right" style="float: right;"><input disabled id="ShortBluntCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="LongBlunt" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Long Blunt</td>
+              <td align="right" style="float: right;"><input disabled id="LongBluntCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="FirstAid" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">First Aid</td>
+              <td align="right" style="float: right;"><input disabled id="FirstAidCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Maintenance" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Maintenance</td>
+              <td align="right" style="float: right;"><input disabled id="MaintenanceCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Cooking" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Cooking</td>
+              <td align="right" style="float: right;"><input disabled id="CookingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Doctor" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Doctor</td>
+              <td align="right" style="float: right;"><input disabled id="DoctorCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Electrical" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Electrical</td>
+              <td align="right" style="float: right;"><input disabled id="ElectricalCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Farming" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Farming</td>
+              <td align="right" style="float: right;"><input disabled id="FarmingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Fishing" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Fishing</td>
+              <td align="right" style="float: right;"><input disabled id="FishingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Fitness" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Fitness</td>
+              <td align="right" style="float: right;"><input disabled id="FitnessCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Lightfooted" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Lightfooted</td>
+              <td align="right" style="float: right;"><input disabled id="LightfootedCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Mechanics" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Mechanics</td>
+              <td align="right" style="float: right;"><input disabled id="MechanicsCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Metalworking" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Metalworking</td>
+              <td align="right" style="float: right;"><input disabled id="MetalworkingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Nimble" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Nimble</td>
+              <td align="right" style="float: right;"><input disabled id="NimbleCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Foraging" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Foraging</td>
+              <td align="right" style="float: right;"><input disabled id="ForagingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Reloading" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Reloading</td>
+              <td align="right" style="float: right;"><input disabled id="ReloadingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Sneaking" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Sneaking</td>
+              <td align="right" style="float: right;"><input disabled id="SneakingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Sprinting" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Sprinting</td>
+              <td align="right" style="float: right;"><input disabled id="SprintingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Strength" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Strength</td>
+              <td align="right" style="float: right;"><input disabled id="StrengthCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Trapping" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Trapping</td>
+              <td align="right" style="float: right;"><input disabled id="TrappingCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+        <div id="Carpentry" style="display:none;">
+          <table width="100%">
+            <tr>
+              <td align="left">Carpentry</td>
+              <td align="right" style="float: right;"><input disabled id="CarpentryCount" style="width:25px; color:green;" type="text" value="0"></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div style="font-size:18px; position: absolute; left: 1639px; top: 847px; width:30px; height:15px; z-index: 2;">
+        <input disabled id="pointcount" style="font-size: 16px;width:23px; color:green;" value="8">
+      </div>
+    </img>
+  </div>
+</body>
+</html>

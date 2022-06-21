@@ -1,0 +1,40 @@
+body {
+   background-image: url(Images/ZomboidMenu.png); 
+   background-size: cover;
+   background-repeat: no-repeat; 
+   background-position: center top; 
+   position: relative;
+   overflow-x: hidden; 
+   overflow-y: hidden; 
+  }
+
+  img.Table {
+    position: relative;
+    display: block;
+    margin: auto;
+    padding-top: 2%;
+    z-index: 1;
+  }
+
+  .list {
+    position: absolute;
+    margin: auto;
+    z-index: 2;
+    overflow-y:scroll;
+  }
+
+  table {
+    border-bottom: 1px solid #343434;
+    border-top:  1px solid #343434;
+    border-collapse: separate;
+    margin-bottom: 1px;
+  }
+  
+  table:hover {
+    background-color:   #0b0b0b;
+  }
+
+  input {
+    background: transparent;
+    border: none;
+  }
