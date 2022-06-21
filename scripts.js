@@ -185,7 +185,7 @@ $(document).ready(function () {
     ChooseProfession("unemployed", true, true);
   }
   else {
-    var params = window.location.href.replace('file:///E:/Downloads/Zomboid_Editor/Index.html#', '');
+    var params = window.location.href.replace('https://konneator.github.io/PZCharacterBuilder/index.html#', '');
     var urlp = params.split(',');
     for (icount = 0; icount < urlp.length; icount++) {
       if ((urlp[icount] != '') && (urlp[icount])) {
